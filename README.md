@@ -1,19 +1,25 @@
 # Santosh Sahu
 # AI-ML-capstone-project
+**Overview**
+This capstone project is the culmination of the Professional Certificate in Machine Learning and Artificial Intelligence. It demonstrates the ability to apply machine learning (ML) and artificial intelligence (AI) techniques to solve a real-world problem.
+The project integrates the entire ML pipeline — from problem framing and data preparation to model building, evaluation, and deployment — showcasing practical expertise in developing AI-driven solutions.
 
 **Project Goals**
-Problem Identification: Define a real-world challenge that can be addressed using AI/ML.
-Data Pipeline: Gather, clean, and preprocess structured or unstructured data for modeling.
-Model Development: Train, validate, and optimize machine learning models.
-Performance Evaluation: Use metrics such as accuracy, precision, recall, F1-score, and AUC-ROC to assess model effectiveness.
-Deployment: Package the trained model into an application (API, web app, or dashboard) for real-world use.
-Scalability & Ethics: Ensure the solution is scalable, interpretable, and developed responsibly.
+•	Define and structure a real-world problem that can be addressed using ML/AI.
+•	Collect, clean, and preprocess relevant data for modeling.
+•	Experiment with different machine learning algorithms and select the most effective approach.
+•	Evaluate model performance using appropriate metrics.
+•	Communicate findings and insights in a clear, professional manner.
+•	(Optional) Deploy the solution for practical use.
 
 **Key Technologies Used**
-**Programming & Tools**
-Python (core language for ML & AI)
-Jupyter Notebook for experimentation and documentation
-Git/GitHub for version control
+•	Programming Language: Python
+•	Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Seaborn
+•	Machine Learning: Scikit-learn
+•	Deep Learning (if applicable): TensorFlow / Keras / PyTorch
+•	Model Deployment (if applicable): Flask / FastAPI / Streamlit
+•	Version Control & Collaboration: Git, GitHub
+•	Development Environment: Jupyter Notebook / Google Colab
 
 **Machine Learning & AI Frameworks**
 scikit-learn – classical ML algorithms and preprocessing
@@ -24,7 +30,3 @@ Hugging Face Transformers (if NLP is used)
 Pandas, NumPy – data manipulation
 Seaborn, Plotly – data visualization and model insights
 
-**Deployment & Production**
-Flask / FastAPI / Django – model API deployment
-Docker – containerization
-AWS / Azure / GCP – cloud deployment options
