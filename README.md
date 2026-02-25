@@ -37,11 +37,11 @@ Steady performance improvement was observed in rounds 7–9, followed by control
 
 This repository includes:
 
-•	📄 Datasheet → DATASHEET.md
+•	📄 Datasheet → [DATASHEET.md](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/DATASHEET.md)
 
 Documentation of the query history dataset following Mini-lesson 21.1.
 
-•	📘 Model Card → MODEL_CARD.md
+•	📘 Model Card → [MODEL_CARD.md](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/MODEL_CARD.md)
 
 Documentation of the optimisation strategy following Mini-lesson 21.2.
 
