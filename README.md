@@ -1,32 +1,40 @@
 # Santosh Sahu
-# AI-ML-capstone-project
-**Overview**
-This capstone project is the culmination of the Professional Certificate in Machine Learning and Artificial Intelligence. It demonstrates the ability to apply machine learning (ML) and artificial intelligence (AI) techniques to solve a real-world problem.
-The project integrates the entire ML pipeline — from problem framing and data preparation to model building, evaluation, and deployment — showcasing practical expertise in developing AI-driven solutions.
+# BBO Capstone Project – Black-Box Optimisation
 
-**Project Goals**
-•	Define and structure a real-world problem that can be addressed using ML/AI.
-•	Collect, clean, and preprocess relevant data for modeling.
-•	Experiment with different machine learning algorithms and select the most effective approach.
-•	Evaluate model performance using appropriate metrics.
-•	Communicate findings and insights in a clear, professional manner.
-•	(Optional) Deploy the solution for practical use.
+**Project Overview**
+This repository documents my Black-Box Optimisation (BBO) capstone project. The objective was to optimise eight unknown functions over ten sequential rounds under constrained evaluation conditions.
+The project demonstrates:
+•	Exploration–exploitation trade-offs
+•	Iterative refinement strategy
+•	Convergence behaviour under limited query budgets
+•	Transparent reporting using a datasheet and model card
 
-**Key Technologies Used**
-•	Programming Language: Python
-•	Data Analysis & Visualization: Pandas, NumPy, Matplotlib, Seaborn
-•	Machine Learning: Scikit-learn
-•	Deep Learning (if applicable): TensorFlow / Keras / PyTorch
-•	Model Deployment (if applicable): Flask / FastAPI / Streamlit
-•	Version Control & Collaboration: Git, GitHub
-•	Development Environment: Jupyter Notebook / Google Colab
+**Optimisation Summary**
+•	8 unknown objective functions
+•	10 rounds of optimisation
+•	80 total function evaluations
+•	Continuous search space in [0,1]^n
+Strategy evolved from:
+•	Early exploration
+•	Mid-stage region narrowing
+•	Final-stage fine-grained exploitation
+Steady performance improvement was observed in rounds 7–9, followed by controlled refinement in round 10.
 
-**Machine Learning & AI Frameworks**
-scikit-learn – classical ML algorithms and preprocessing
-TensorFlow / PyTorch – deep learning frameworks
-Hugging Face Transformers (if NLP is used)
+**Documentation**
+This repository includes:
+•	📄 Datasheet → DATASHEET.md
+Documentation of the query history dataset following Mini-lesson 21.1.
+•	📘 Model Card → MODEL_CARD.md
+Documentation of the optimisation strategy following Mini-lesson 21.2.
+These documents promote transparency, reproducibility and responsible reporting.
 
-**Data & Visualization**
-Pandas, NumPy – data manipulation
-Seaborn, Plotly – data visualization and model insights
+⚖️ Ethical and Transparency Statement
+•	All optimisation decisions are documented.
+•	No human or demographic data were used.
+•	No claims of global optimality are made.
+•	The strategy and assumptions are clearly stated.
+
+👤 Author
+**Santosh Kumar Sahu**
+**BBO Capstone Project**
 
