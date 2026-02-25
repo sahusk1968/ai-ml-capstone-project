@@ -89,3 +89,30 @@ Minimal preprocessing was required.
 
 No labelling process was required, as outputs were directly provided by the black-box evaluation system.
 
+5. **Uses**
+
+**Intended Uses**
+
+This dataset is suitable for:
+
+•	Analysing optimisation strategy evolution
+
+•	Studying convergence behaviour in black-box optimisation
+
+•	Demonstrating iterative refinement under evaluation constraints
+
+•	Educational demonstrations of exploration vs exploitation
+
+Uses to Avoid
+
+This dataset should not be used:
+
+•	To claim global optimality of the functions
+
+•	As a benchmark dataset for general optimisation algorithms
+
+•	As representative of all black-box optimisation landscapes
+
+Because the dataset is small and sequentially dependent, it may not generalise to broader optimisation contexts.
+
+
