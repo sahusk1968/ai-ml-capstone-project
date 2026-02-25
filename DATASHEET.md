@@ -23,7 +23,8 @@ The dataset was created by the student as part of the BBO capstone project. It w
 
 The dataset was produced for academic purposes within a structured course setting. No external funding was involved.
 
-**2. Composition**
+2. **Composition**
+
 The dataset contains:
 
 •	8 separate unknown objective functions
