@@ -53,7 +53,7 @@ The dataset represents a **sampled subset** of each function’s search space, n
 No sensitive personal data, demographic information, or identifiable individuals are included.
 
 3. **Collection Process**
-4. 
+
 The dataset was generated sequentially over ten rounds of optimisation.
 
 Sampling strategy evolved as follows:
@@ -75,4 +75,17 @@ Queries were manually selected based on:
 The process was deterministic rather than random in later rounds, as decisions were informed by previous evaluation outcomes.
 There were no human subjects involved, and no ethical review was required.
 
+4. **Preprocessing / Cleaning / Labelling**
+
+Minimal preprocessing was required.
+
+•	Query values were constrained to [0,1].
+
+•	Values were standardised to six decimal places for submission formatting consistency.
+
+•	No feature engineering or transformation of evaluation scores was applied.
+
+•	Raw query values and returned scores were preserved.
+
+No labelling process was required, as outputs were directly provided by the black-box evaluation system.
 
