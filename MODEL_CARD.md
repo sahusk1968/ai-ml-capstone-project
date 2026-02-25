@@ -55,6 +55,43 @@ This approach should not be used:
 
 The strategy is manual and heuristic-based rather than algorithmically guaranteed.
 
+3. **Training Data (Adapted to Optimisation Context)**
+
+Since this is not a supervised ML model, there is no traditional training dataset.
+
+Instead, the optimisation strategy uses:
+
+•	Historical query points from previous rounds
+
+•	Corresponding scalar function evaluations
+
+•	Observed performance trends
+
+Each round uses prior evaluation results as “feedback data” to guide subsequent sampling decisions.
+
+The total feedback dataset consists of:
+
+•	80 total function evaluations (10 per function)
+
+4. **Evaluation Metrics**
+
+Performance was evaluated using:
+
+•	Objective function value (primary metric)
+
+•	Relative improvement across rounds
+
+•	Stability of convergence in final iterations
+
+Observed behaviour:
+
+•	Steady improvement from rounds 7–9
+
+•	Reduced step size and local refinement in round 10
+
+•	Concentration of queries near high-performing regions
+
+No fairness metrics were applicable, as no demographic or human-related data were involved.
 
 
 
