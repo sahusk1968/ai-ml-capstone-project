@@ -103,7 +103,7 @@ This dataset is suitable for:
 
 •	Educational demonstrations of exploration vs exploitation
 
-Uses to Avoid
+**Uses to Avoid**
 
 This dataset should not be used:
 
@@ -116,3 +116,24 @@ This dataset should not be used:
 Because the dataset is small and sequentially dependent, it may not generalise to broader optimisation contexts.
 
 
+6. **Distribution**
+
+The dataset is made available via the project’s public GitHub repository.
+
+Format:
+
+•	Markdown documentation and/or CSV files
+
+Access:
+
+•	Public academic access via GitHub
+
+There are no licensing fees. The dataset is shared for academic transparency and reproducibility.
+
+7. **Maintenance**
+
+The dataset is maintained by the project author.
+
+As the project consists of a fixed ten-round process, no further updates are expected. Version control is handled via GitHub.
+
+If corrections are needed, they will be documented through repository version history.
