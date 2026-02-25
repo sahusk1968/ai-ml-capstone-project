@@ -93,5 +93,81 @@ Observed behaviour:
 
 No fairness metrics were applicable, as no demographic or human-related data were involved.
 
+5. **Optimisation Strategy Details**
 
+**Rounds 1–3: Exploration Phase**
+
+•	Broad coverage of the search space
+
+•	Identification of promising regions
+
+**Rounds 4–7: Region Narrowing**
+
+•	Movement toward higher-performing areas
+
+•	Reduced variation in weaker dimensions
+
+**Rounds 8–10: Exploitation & Refinement**
+
+•	Fine-grained adjustments
+
+•	Smaller perturbations around best-known points
+
+•	Stabilisation rather than large jumps
+
+Key principle:
+
+Gradual transition from exploration to controlled exploitation.
+
+6. **Assumptions and Limitations**
+
+**Key Assumptions**
+
+.	The objective functions exhibit some degree of local smoothness.
+
+.	High-performing regions remain stable across nearby perturbations.
+
+.	Previous evaluation trends provide useful signal for refinement.
+
+**Significant Limitation**
+
+The strategy relies on limited sampling (10 points per function), meaning:
+
+•	Large portions of the search space remain unexplored
+
+•	Risk of converging to local rather than global optima
+
+•	No probabilistic confidence estimates
+
+The manual, heuristic nature reduces scalability and reproducibility without detailed documentation.
+
+7. **Ethical Considerations**
+
+Although the model does not involve human data, ethical considerations include:
+
+**Transparency**
+
+The full query history and reasoning are documented in the datasheet and repository to enable reproducibility.
+
+**Reproducibility**
+
+All decisions are traceable to specific round results.
+
+**Risk Awareness**
+
+The model does not claim global optimality or universal applicability.
+
+This documentation promotes responsible reporting of optimisation results and avoids overstating performance claims.
+
+8. **Distribution**
+
+The modelorting dataset are available in the public GitHub repository for the BBO capstone project.
+
+The repository includes:
+
+•	Datasheet (DATASHEET.md)
+
+•	Model card (MODEL_CARD.md)
+
+•	README documentation
 
