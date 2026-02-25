@@ -22,3 +22,34 @@ The dataset was created by the student as part of the BBO capstone project. It w
 **Was it funded or supported by an organisation?**
 
 The dataset was produced for academic purposes within a structured course setting. No external funding was involved.
+
+**2. Composition**
+The dataset contains:
+
+•	8 separate unknown objective functions
+
+•	10 query submissions per function
+
+•	A total of 80 evaluated query points
+
+Each data instance includes:
+
+•	Function identifier
+
+•	Round number (1–10)
+
+•	Query vector (2D–8D depending on function)
+
+•	Scalar evaluation score
+
+All query values:
+
+•	Are continuous values in the range [0,1]
+
+•	Are formatted to six decimal places
+
+The dataset represents a **sampled subset** of each function’s search space, not a complete coverage. Later rounds are concentrated around high-performing regions, reflecting exploitation behaviour.
+No sensitive personal data, demographic information, or identifiable individuals are included.
+
+
+
