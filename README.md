@@ -5,8 +5,11 @@
 This repository documents my Black-Box Optimisation (BBO) capstone project. The objective was to optimise eight unknown functions over ten sequential rounds under constrained evaluation conditions.
 The project demonstrates:
 •	Exploration–exploitation trade-offs
+
 •	Iterative refinement strategy
+
 •	Convergence behaviour under limited query budgets
+
 •	Transparent reporting using a datasheet and model card
 
 **Optimisation Summary**
