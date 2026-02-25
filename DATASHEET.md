@@ -52,5 +52,27 @@ All query values:
 The dataset represents a **sampled subset** of each function’s search space, not a complete coverage. Later rounds are concentrated around high-performing regions, reflecting exploitation behaviour.
 No sensitive personal data, demographic information, or identifiable individuals are included.
 
+3. **Collection Process**
+4. 
+The dataset was generated sequentially over ten rounds of optimisation.
+
+Sampling strategy evolved as follows:
+
+•	Rounds 1–3: Broader exploration across the search space
+
+•	Rounds 4–7: Identification of promising regions
+
+•	Rounds 8–10: Reduced step-size refinement and local exploitation
+
+Queries were manually selected based on:
+
+•	Observed performance trends
+
+•	Sensitivity of dimensions
+
+•	Convergence patterns in later rounds
+
+The process was deterministic rather than random in later rounds, as decisions were informed by previous evaluation outcomes.
+There were no human subjects involved, and no ethical review was required.
 
 
