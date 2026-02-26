@@ -4,7 +4,7 @@
  
 **What task does this dataset help to solve?**
 
-This dataset supports a black-box optimisation (BBO) task involving eight unknown objective functions. The purpose of the dataset is to document the full query history and corresponding function evaluations generated across ten optimisation rounds. It enables analysis of optimisation behaviour under strict evaluation constraints and limited feedback.
+This dataset supports a black-box optimisation (BBO) task involving eight unknown objective functions. The purpose of the dataset is to document the full query history and corresponding function evaluations generated across ten optimisation rounds [Query_history_and Results](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/Query_history_and%20Results.md). It enables analysis of optimisation behaviour under strict evaluation constraints and limited feedback.
 The dataset supports:
 
 •	Study of exploration–exploitation trade-offs
