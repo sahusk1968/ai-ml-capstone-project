@@ -1,0 +1,37 @@
+Your Capstone Project submission for Week 1 of the Black-Box Optimisation Challenge (BBO) has been successfully processed. 
+
+This week's input values: 
+
+Function 1:	[0.319404, 0.762959]
+
+Function 2:	[0.665800, 0.123969]
+
+Function 3:	[0.171525, 0.343917, 0.248737]
+
+Function 4:	[0.896981, 0.725628, 0.175404, 0.701694]
+
+Function 5:	[0.191447, 0.038193, 0.607418, 0.414584]
+
+Function 6:	[0.728186, 0.154693, 0.732552, 0.693997, 0.056401]
+
+Function 7:	[0.272624, 0.324495, 0.897109, 0.832951, 0.154063, 0.795864]
+
+Function 8:	[0.604994, 0.292215, 0.908453, 0.355506, 0.201669, 0.575338, 0.310311, 0.734281]
+
+This week's output values: 
+
+Function 1:	1.3230089826882197e-79
+
+Function 2:	0.48462481869563445
+
+Function 3:	-0.10746508153257514
+
+Function 4:	-22.108281547747392
+
+Function 5:	64.44338580660717
+
+Function 6:	-0.7605592956107076
+
+Function 7:	0.6044332624381697
+
+Function 8:	7.3987210988774
