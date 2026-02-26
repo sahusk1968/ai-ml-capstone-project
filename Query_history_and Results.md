@@ -1,4 +1,4 @@
-Your **Capstone Project** submission for Week 1 of the Black-Box Optimisation Challenge (BBO) has been successfully processed. 
+Your **Capstone Project** submission for **Week 1** of the **Black-Box Optimisation Challenge (BBO)** has been successfully processed. 
 
 **This week's input values:**
 
