@@ -7,34 +7,70 @@ This repository presents my **Black-Box Optimisation (BBO) Capstone Project**, w
 
 The optimisation was conducted within a bounded continuous domain **[0,1]^n**, with a limited query budget per function. The project demonstrates structured decision-making under uncertainty and progressive refinement based solely on observed function outputs.
 
+**Core Objectives**
 
-•	Exploration–exploitation trade-offs
+•	Balance exploration and exploitation under limited evaluations
 
-•	Iterative refinement strategy
+•	Detect and refine high-performing regions
 
-•	Convergence behaviour under limited query budgets
+•	Demonstrate convergence behaviour
 
-•	Transparent reporting using a datasheet and model card
+•	Document optimisation decisions transparently
+
+•	Apply responsible reporting standards (Datasheet + Model Card)
 
 **Optimisation Summary**
 
-•	8 unknown objective functions
+**Component	Value**
 
-•	10 rounds of optimisation
+Objective Functions	8 (unknown black-box functions)
 
-•	80 total function evaluations
+Optimisation Rounds	11
 
-•	Continuous search space in [0,1]^n
+Total Evaluations	88
 
-Strategy evolved from:
+Search Space	Continuous [0,1]^n
 
-•	Early exploration
+Strategy Type	Manual, sequential, feedback-driven
 
-•	Mid-stage region narrowing
+**Strategy Evolution**
 
-•	Final-stage fine-grained exploitation
+The optimisation process followed a structured progression:
 
-Steady performance improvement was observed in rounds 7–9, followed by controlled refinement in round 10.
+**Rounds 1–3: Exploration**
+
+•	Broad coverage of search space
+
+•	High step-size variation
+
+•	Identification of promising directions
+
+**Rounds 4–7: Region Identification**
+
+•	Movement toward high-performing regions
+
+•	Reduced variation in weak dimensions
+
+•	Emerging performance clustering
+
+**Rounds 8–10: Exploitation & Convergence**
+
+•	Fine-grained parameter adjustments
+
+•	Step-size reduction
+
+•	Density increase near top-performing points
+
+**Round 11: Cluster-Based Micro-Refinement**
+
+•	Centroid-oriented tuning
+
+•	Minimal perturbations to test local smoothness
+
+•	Convergence-sensitive optimisation
+
+Performance improved steadily in mid-to-late rounds, followed by stabilisation and controlled refinement — consistent with convergence behaviour.
+
 
 **Documentation**
 
