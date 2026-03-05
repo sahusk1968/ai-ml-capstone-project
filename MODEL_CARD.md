@@ -2,7 +2,7 @@
 
 1. **Basic Details**
 
-**Model name:** Iterative BBO Strategy – 10 Round Refinement
+**Model name:** Iterative BBO Strategy – 11 Round Refinement
 
 **Version:** v1.1
 
