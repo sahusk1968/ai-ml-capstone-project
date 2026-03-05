@@ -200,7 +200,7 @@ This documentation promotes responsible reporting and avoids overstating optimis
 
 8. **Distribution**
 
-The modelorting dataset are available in the public GitHub repository for the BBO capstone project.
+The model card and supporting dataset are available in the public GitHub repository for the BBO capstone project.
 
 The repository includes:
 
