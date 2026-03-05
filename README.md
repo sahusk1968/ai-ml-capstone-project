@@ -1,6 +1,16 @@
 # Santosh Sahu
 # BBO Capstone Project – Black-Box Optimisation
 
+<p align="center"> 
+
+
+
+
+
+
+</p> 
+
+
 **Project Overview**
 This repository documents my Black-Box Optimisation (BBO) capstone project. The objective was to optimise eight unknown functions over ten sequential rounds under constrained evaluation conditions.
 The project demonstrates:
