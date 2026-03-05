@@ -2,8 +2,11 @@
 # BBO Capstone Project – Black-Box Optimisation
 
 **Project Overview**
-This repository documents my Black-Box Optimisation (BBO) capstone project. The objective was to optimise eight unknown functions over ten sequential rounds under constrained evaluation conditions.
-The project demonstrates:
+
+This repository presents my **Black-Box Optimisation (BBO) Capstone Project**, where eight unknown objective functions were optimised over **11 sequential rounds** under strict evaluation constraints.
+
+The optimisation was conducted within a bounded continuous domain **[0,1]^n**, with a limited query budget per function. The project demonstrates structured decision-making under uncertainty and progressive refinement based solely on observed function outputs.
+
 
 •	Exploration–exploitation trade-offs
 
