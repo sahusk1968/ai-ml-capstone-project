@@ -15,7 +15,7 @@
 **License:** Academic use
 
 **Description**
-This model describes a ten-round sequential optimisation strategy applied to eight unknown objective functions in a constrained evaluation environment. The approach balances exploration and exploitation, progressively refining candidate solutions based on observed function outputs.
+This model describes a eleven-round sequential optimisation strategy applied to eight unknown objective functions in a constrained evaluation environment. The approach balances exploration and exploitation, progressively refining candidate solutions based on observed function outputs.
 
 The strategy is deterministic in later rounds and informed by previous evaluation feedback.
 
