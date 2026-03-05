@@ -4,7 +4,7 @@
 <p align="center"> 
 
 
-
+**BBO Capstone Project – Black-Box Optimisation**
 
 
 
