@@ -1,10 +1,10 @@
-**Model Card: Iterative Black-Box Optimisation Strategy (BBO-10R)**
+**Model Card: Iterative Black-Box Optimisation Strategy (BBO-11R)**
 
 1. **Basic Details**
 
 **Model name:** Iterative BBO Strategy – 10 Round Refinement
 
-**Version:** v1.0
+**Version:** v1.1
 
 **Type:** Manual sequential optimisation strategy
 
@@ -31,7 +31,9 @@ This optimisation approach is suitable for:
 
 •	Demonstrating exploration–exploitation trade-offs
 
-•	Analysing convergence behaviour across rounds
+•	Studying convergence dynamics in iterative optimisation
+
+•	Analysing clustering behaviour in continuous search spaces
 
 It is appropriate when:
 
@@ -53,7 +55,7 @@ This approach should not be used:
 
 •	In automated large-scale industrial optimisation
 
-The strategy is manual and heuristic-based rather than algorithmically guaranteed.
+The strategy is manual and heuristic-based rather than algorithmically guaranteed. It does not incorporate probabilistic modelling, surrogate modelling, or formal optimisation guarantees.
 
 3. **Training Data (Adapted to Optimisation Context)**
 
@@ -71,7 +73,11 @@ Each round uses prior evaluation results as “feedback data” to guide subsequ
 
 The total feedback dataset consists of:
 
-•	80 total function evaluations (10 per function)
+•	88 total function evaluations (11 per function)
+
+•	Sequentially dependent query–response pairs
+
+The feedback data is cumulative and path-dependent, meaning later decisions are influenced by earlier sampling behaviour.
 
 4. **Evaluation Metrics**
 
@@ -83,13 +89,17 @@ Performance was evaluated using:
 
 •	Stability of convergence in final iterations
 
+•	Evidence of convergence or plateau behaviour
+
 Observed behaviour:
 
-•	Steady improvement from rounds 7–9
+•	Increasing performance stability from Rounds 7–10
 
-•	Reduced step size and local refinement in round 10
+•	Reduced perturbation magnitude in Round 10
 
-•	Concentration of queries near high-performing regions
+•	Round 11 micro-adjustment within dominant high-performing clusters
+
+•	Clear shift from exploration-dominant to exploitation-dominant strategy
 
 No fairness metrics were applicable, as no demographic or human-related data were involved.
 
@@ -99,25 +109,42 @@ No fairness metrics were applicable, as no demographic or human-related data wer
 
 •	Broad coverage of the search space
 
+•	Large step-size variation
+
 •	Identification of promising regions
 
-**Rounds 4–7: Region Narrowing**
+**Rounds 4–7: Region Identification**
 
 •	Movement toward higher-performing areas
 
 •	Reduced variation in weaker dimensions
 
-**Rounds 8–10: Exploitation & Refinement**
+•	Emerging cluster formation
 
-•	Fine-grained adjustments
+**Rounds 8–10: Exploitation & Convergence**
 
-•	Smaller perturbations around best-known points
+•	Fine-grained parameter adjustments
 
-•	Stabilisation rather than large jumps
+•	Reduced step size
 
-Key principle:
+•	Increased density of queries within promising regions
 
-Gradual transition from exploration to controlled exploitation.
+•	Evidence of stabilisation and diminishing variance
+
+**Round 11: Cluster-Based Micro-Refinement**
+
+•	Centroid-oriented adjustments within dominant clusters
+
+•	Minimal perturbations to test local smoothness
+
+•	Convergence-sensitive tuning rather than expansion
+
+•	Reinforcement of density within high-performing basins
+
+**Core Principle:**
+
+A deliberate transition from high-variance exploration to density-guided exploitation and convergence refinement.
+
 
 6. **Assumptions and Limitations**
 
@@ -125,39 +152,51 @@ Gradual transition from exploration to controlled exploitation.
 
 .	The objective functions exhibit some degree of local smoothness.
 
-.	High-performing regions remain stable across nearby perturbations.
+•	High-performing regions remain stable under small perturbations.
 
-.	Previous evaluation trends provide useful signal for refinement.
+•	Observed multi-round trends provide meaningful signal for refinement.
+
+•	Convergence behaviour indicates proximity to a local optimum.
 
 **Significant Limitation**
 
-The strategy relies on limited sampling (10 points per function), meaning:
+•	Limited sampling budget (11 points per function).
 
-•	Large portions of the search space remain unexplored
+•	Large portions of the search space remain unexplored.
 
-•	Risk of converging to local rather than global optima
+•	Risk of convergence to local rather than global optima.
 
-•	No probabilistic confidence estimates
+•	No uncertainty quantification or probabilistic confidence estimates.
 
-The manual, heuristic nature reduces scalability and reproducibility without detailed documentation.
+•	Manual, heuristic nature reduces scalability without detailed documentation.
+
+The optimisation path is sequentially dependent and may not be reproducible without identical evaluation feedback.
 
 7. **Ethical Considerations**
 
-Although the model does not involve human data, ethical considerations include:
+Although the model does not involve human data, responsible documentation remains important.
 
 **Transparency**
 
-The full query history and reasoning are documented in the datasheet and repository to enable reproducibility.
+•	Full query history and reasoning are documented.
+
+•	Strategy evolution is explicitly described.
 
 **Reproducibility**
 
-All decisions are traceable to specific round results.
+•	Sequential decisions are traceable to previous round outcomes.
+
+•	Repository version control preserves iteration history.
 
 **Risk Awareness**
 
-The model does not claim global optimality or universal applicability.
+•	The model does not claim global optimality.
 
-This documentation promotes responsible reporting of optimisation results and avoids overstating performance claims.
+•	Results are context-specific to this controlled academic setting.
+
+•	No claims are made regarding universal performance.
+
+This documentation promotes responsible reporting and avoids overstating optimisation outcomes.
 
 8. **Distribution**
 
