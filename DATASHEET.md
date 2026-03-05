@@ -4,12 +4,14 @@
  
 **What task does this dataset help to solve?**
 
-This dataset supports a black-box optimisation (BBO) task involving eight unknown objective functions. The purpose of the dataset is to document the full query history and corresponding function evaluations generated across ten optimisation rounds [Query_history_and Results](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/Query_history_and%20Results.md). It enables analysis of optimisation behaviour under strict evaluation constraints and limited feedback.
+This dataset supports a black-box optimisation (BBO) task involving eight unknown objective functions. The purpose of the dataset is to document the full query history and corresponding function evaluations generated across eleven optimisation rounds [Query_history_and Results](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/Query_history_and%20Results.md). It enables analysis of optimisation behaviour under strict evaluation constraints and limited feedback.
 The dataset supports:
 
 •	Study of exploration–exploitation trade-offs
 
 •	Analysis of convergence behaviour
+
+•	Identification of clustering patterns in the search space
 
 •	Evaluation of optimisation strategies under budget limits
 
@@ -29,15 +31,15 @@ The dataset contains:
 
 •	8 separate unknown objective functions
 
-•	10 query submissions per function
+•	11 query submissions per function
 
-•	A total of 80 evaluated query points
+•	A total of 88 evaluated query points
 
 Each data instance includes:
 
 •	Function identifier
 
-•	Round number (1–10)
+•	Round number (1–11)
 
 •	Query vector (2D–8D depending on function)
 
@@ -48,6 +50,8 @@ All query values:
 •	Are continuous values in the range [0,1]
 
 •	Are formatted to six decimal places
+
+•	Represent decision variables in bounded search spaces
 
 The dataset represents a **sampled subset** of each function’s search space, not a complete coverage. Later rounds are concentrated around high-performing regions, reflecting exploitation behaviour.
 No sensitive personal data, demographic information, or identifiable individuals are included.
