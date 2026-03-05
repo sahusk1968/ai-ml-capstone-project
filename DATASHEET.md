@@ -68,6 +68,8 @@ Sampling strategy evolved as follows:
 
 •	Rounds 8–10: Reduced step-size refinement and local exploitation
 
+•	Round 11: Micro-adjustment and centroid-based fine-tuning within dominant clusters
+
 Queries were manually selected based on:
 
 •	Observed performance trends
@@ -75,6 +77,8 @@ Queries were manually selected based on:
 •	Sensitivity of dimensions
 
 •	Convergence patterns in later rounds
+
+•	Identification of dense high-performing clusters
 
 The process was deterministic rather than random in later rounds, as decisions were informed by previous evaluation outcomes.
 There were no human subjects involved, and no ethical review was required.
@@ -103,6 +107,8 @@ This dataset is suitable for:
 
 •	Studying convergence behaviour in black-box optimisation
 
+•	Investigating clustering behaviour in high-dimensional search spaces
+
 •	Demonstrating iterative refinement under evaluation constraints
 
 •	Educational demonstrations of exploration vs exploitation
@@ -116,6 +122,8 @@ This dataset should not be used:
 •	As a benchmark dataset for general optimisation algorithms
 
 •	As representative of all black-box optimisation landscapes
+
+•	For statistical generalisation beyond this controlled academic setting
 
 Because the dataset is small and sequentially dependent, it may not generalise to broader optimisation contexts.
 
