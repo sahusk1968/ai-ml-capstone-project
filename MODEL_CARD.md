@@ -208,5 +208,7 @@ The repository includes:
 
 •	Model card (MODEL_CARD.md)
 
+•	Query history (Query_history_and Results.md)
+
 •	README documentation
 
