@@ -81,7 +81,13 @@ Performance improved steadily in mid-to-late rounds, followed by stabilisation a
 
 **Round 12: micro-perturbations around the same region**
 
+•	Local exploitation (All points remain very close to the previous round)
 
+•	Micro-step adjustments (reducing overshooting)
+
+•	Directional continuation (Parameters that previously trended upward are nudged upward; those trending downward move slightly down)
+
+This aligns perfectly with the **PCA idea** (reduce randomness while preserving meaningful variation).
 
 
 **Documentation**
