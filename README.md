@@ -3,9 +3,17 @@
 
 **Project Overview**
 
-This repository presents my **Black-Box Optimisation (BBO) Capstone Project**, where eight unknown objective functions were optimised over **11 sequential rounds** under strict evaluation constraints.
+This repository presents my **Black-Box Optimisation (BBO) Capstone Project**, where eight unknown objective functions were optimised over **12 sequential rounds** under strict evaluation constraints.
 
 The optimisation was conducted within a bounded continuous domain **[0,1]^n**, with a limited query budget per function. The project demonstrates structured decision-making under uncertainty and progressive refinement based solely on observed function outputs.
+
+The goal of the **Black-Box Optimisation (BBO) capstone project** is to identify high-performing input values for a set of unknown functions without knowing their internal structure. Because the functions behave as black boxes, the optimisation process relies entirely on analysing the relationship between submitted queries and the resulting outputs.
+
+My overall strategy has followed an iterative optimisation process that combines exploration and exploitation. In the early rounds, I explored a wide range of parameter values across the search space to gather information about how the functions respond to different inputs. This helped identify areas where performance appeared stronger or weaker.
+
+As more data points were collected, the strategy shifted toward refinement. Instead of sampling randomly across the entire space, I began concentrating queries around regions that showed consistent improvement. This allowed the search process to gradually converge toward promising areas of the parameter space.
+
+Overall, the optimisation approach can be described as a cycle of observation, pattern detection, and controlled refinement. Each round of queries builds on previous results, allowing the strategy to become more structured and data-driven over time.
 
 **Core Objectives**
 
@@ -25,9 +33,9 @@ The optimisation was conducted within a bounded continuous domain **[0,1]^n**, w
 
 Objective Functions	8 (unknown black-box functions)
 
-Optimisation Rounds	11
+Optimisation Rounds	12
 
-Total Evaluations	88
+Total Evaluations	96
 
 Search Space	Continuous [0,1]^n
 
@@ -70,6 +78,10 @@ The optimisation process followed a structured progression:
 •	Convergence-sensitive optimisation
 
 Performance improved steadily in mid-to-late rounds, followed by stabilisation and controlled refinement — consistent with convergence behaviour.
+
+**Round 12: micro-perturbations around the same region**
+
+
 
 
 **Documentation**
