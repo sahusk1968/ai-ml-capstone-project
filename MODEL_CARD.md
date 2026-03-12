@@ -143,6 +143,16 @@ No fairness metrics were applicable, as no demographic or human-related data wer
 
 •	Reinforcement of density within high-performing basins
 
+**Round 12: micro-perturbations around the same region**
+
+• Local exploitation (All points remain very close to the previous round)
+
+• Micro-step adjustments (reducing overshooting)
+
+• Directional continuation (Parameters that previously trended upward are nudged upward; those trending downward move slightly down)
+
+This aligns perfectly with the **PCA idea** (reduce randomness while preserving meaningful variation).
+
 **Core Principle:**
 
 A deliberate transition from high-variance exploration to density-guided exploitation and convergence refinement.
