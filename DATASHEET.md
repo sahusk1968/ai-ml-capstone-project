@@ -31,15 +31,15 @@ The dataset contains:
 
 •	8 separate unknown objective functions
 
-•	11 query submissions per function
+•	12 query submissions per function
 
-•	A total of 88 evaluated query points
+•	A total of 96 evaluated query points
 
 Each data instance includes:
 
 •	Function identifier
 
-•	Round number (1–11)
+•	Round number (1–12)
 
 •	Query vector (2D–8D depending on function)
 
@@ -69,6 +69,8 @@ Sampling strategy evolved as follows:
 •	Rounds 8–10: Reduced step-size refinement and local exploitation
 
 •	Round 11: Micro-adjustment and centroid-based fine-tuning within dominant clusters
+
+Round 12: Local exploitation, Micro-step adjustments and Directional continuation
 
 Queries were manually selected based on:
 
