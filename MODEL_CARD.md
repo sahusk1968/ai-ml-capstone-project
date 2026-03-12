@@ -1,4 +1,4 @@
-**Model Card: Iterative Black-Box Optimisation Strategy (BBO-11R)**
+**Model Card: Iterative Black-Box Optimisation Strategy (BBO-12R)**
 
 1. **Basic Details**
 
@@ -73,7 +73,7 @@ Each round uses prior evaluation results as “feedback data” to guide subsequ
 
 The total feedback dataset consists of:
 
-•	88 total function evaluations (11 per function)
+•	96 total function evaluations (12 per function)
 
 •	Sequentially dependent query–response pairs
 
@@ -98,6 +98,8 @@ Observed behaviour:
 •	Reduced perturbation magnitude in Round 10
 
 •	Round 11 micro-adjustment within dominant high-performing clusters
+
+Round 12 Local exploitation, Micro-step adjustments and Directional continuation which aligns perfectly with the **PCA idea** (reduce randomness while preserving meaningful variation).
 
 •	Clear shift from exploration-dominant to exploitation-dominant strategy
 
