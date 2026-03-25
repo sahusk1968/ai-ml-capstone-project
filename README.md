@@ -89,6 +89,18 @@ Performance improved steadily in mid-to-late rounds, followed by stabilisation a
 
 This aligns perfectly with the **PCA idea** (reduce randomness while preserving meaningful variation).
 
+**Round 13: Final Convergence Validation**
+
+• Micro-perturbations applied near converged solutions
+
+• Directionally guided adjustments based on prior trends
+
+• Stable outputs with minimal variation across functions
+
+• Reinforcement of local optima behaviour
+
+• Clear evidence of convergence and diminishing returns
+
 **Results Visualization**
 
 ![Optimization Progress](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/actual_optimization_progress.png)
