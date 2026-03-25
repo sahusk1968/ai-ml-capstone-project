@@ -91,6 +91,7 @@ This aligns perfectly with the **PCA idea** (reduce randomness while preserving 
 
 **Results Visualization**
 
+![Optimization Progress](image.png)
 
 **Documentation**
 
