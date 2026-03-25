@@ -91,7 +91,7 @@ This aligns perfectly with the **PCA idea** (reduce randomness while preserving 
 
 **Results Visualization**
 
-![Optimization Progress](image.png)
+![Optimization Progress](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/actual_optimization_progress.png)
 
 **Documentation**
 
