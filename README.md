@@ -15,6 +15,11 @@ As more data points were collected, the strategy shifted toward refinement. Inst
 
 Overall, the optimisation approach can be described as a cycle of observation, pattern detection, and controlled refinement. Each round of queries builds on previous results, allowing the strategy to become more structured and data-driven over time.
 
+**Non-Technical Explanation**
+
+This project explores how to find the best possible solutions when the system being optimized is unknown. Different input values were tested to see how they affected the results, and over time, better-performing patterns were identified. The approach started with broad experimentation and gradually shifted to refining the most promising areas. While improvements became smaller over time, the process showed how repeated testing and careful adjustments can lead to better outcomes. This project highlights how decision-making and problem-solving can be done effectively even without full knowledge of how a system works.
+
+
 **Core Objectives**
 
 •	Balance exploration and exploitation under limited evaluations
