@@ -89,6 +89,8 @@ Performance improved steadily in mid-to-late rounds, followed by stabilisation a
 
 This aligns perfectly with the **PCA idea** (reduce randomness while preserving meaningful variation).
 
+**Results Visualization**
+
 
 **Documentation**
 
