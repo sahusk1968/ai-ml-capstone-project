@@ -118,7 +118,30 @@ This aligns perfectly with the **PCA idea** (reduce randomness while preserving 
 
 • Clear evidence of convergence and diminishing returns
 
+**Hyperparameter / Strategy Tuning**
+
+•	Step sizes were gradually reduced over time
+
+•	Directional adjustments were made based on observed trends
+
+•	Exploration vs exploitation balance was continuously adjusted
+
+•	Strategy evolved from random sampling to guided local search
+
+
 **Results Visualization**
+
+•	Significant improvements occurred during mid-phase optimisation
+
+•	Functions 7 and 8 showed consistent upward trends
+
+•	Performance plateaued in later stages due to convergence
+
+•	Small adjustments produced diminishing returns
+
+Overall, the project demonstrates a typical optimisation lifecycle:
+
+**Exploration → Exploitation → Convergence**
 
 ![Optimization Progress](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/actual_optimization_progress.png)
 
