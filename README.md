@@ -145,17 +145,23 @@ Overall, the project demonstrates a typical optimisation lifecycle:
 
 ![Optimization Progress](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/actual_optimization_progress.png)
 
+**Trade-offs and Challenges**
+
+•	Improving one function often reduced performance in others
+
+•	Balancing exploration vs refinement was critical
+
+•	Resetting search regions led to temporary performance drops
+
+•	Convergence introduced instability and sensitivity to small changes
+
 **Documentation**
 
 This repository includes:
 
 •	📄 Datasheet → [DATASHEET.md](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/DATASHEET.md)
 
-Documentation of the query history dataset following Mini-lesson 21.1.
-
 •	📘 Model Card → [MODEL_CARD.md](https://github.com/sahusk1968/AI-ML-capstone-project/blob/main/MODEL_CARD.md)
-
-Documentation of the optimisation strategy following Mini-lesson 21.2.
 
 These documents promote transparency, reproducibility and responsible reporting.
 
@@ -168,6 +174,17 @@ These documents promote transparency, reproducibility and responsible reporting.
 •	No claims of global optimality are made.
 
 •	The strategy and assumptions are clearly stated.
+
+**Key Learnings**
+
+•	Balancing exploration and exploitation is critical
+
+•	Optimisation gains decrease over time (diminishing returns)
+
+•	Black-box systems require adaptive, data-driven strategies
+
+•	Multi-objective optimisation introduces complex trade-offs
+
 
 👤 Author
 
