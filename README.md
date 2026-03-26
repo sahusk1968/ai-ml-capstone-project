@@ -32,21 +32,33 @@ This project explores how to find the best possible solutions when the system be
 
 •	Apply responsible reporting standards (Datasheet + Model Card)
 
-**Optimisation Summary**
+**Data**
 
-**Component	Value**
+This project does not use a traditional dataset. Instead, data is generated dynamically through interactions with a black-box system.
 
-Objective Functions	8 (unknown black-box functions)
+•	Each query consists of input values submitted to the system
 
-Optimisation Rounds	12
+•	The system returns outputs for multiple hidden functions
 
-Total Evaluations	96
+•	These input-output pairs are used to guide optimisation decisions
 
-Search Space	Continuous [0,1]^n
+No external dataset is hosted in this repository. Instead, the generated results are documented and analysed throughout the optimisation process.
 
-Strategy Type	Manual, sequential, feedback-driven
+**Model / Approach**
 
-**Strategy Evolution**
+The “model” in this project is a structured optimisation strategy rather than a traditional machine learning model.
+
+The approach evolved through:
+
+•	Exploration: Testing diverse inputs to understand the search space
+
+•	Refinement: Focusing on promising regions
+
+•	Exploitation: Fine-tuning inputs to maximise outputs
+
+This iterative process allowed the strategy to become increasingly data-driven over time.
+
+**Optimisation Strategy & Evolution**
 
 The optimisation process followed a structured progression:
 
